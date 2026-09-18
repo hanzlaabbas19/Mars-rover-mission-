@@ -26,4 +26,6 @@ Only authenticated Mission Control operators shall be permitted to issue rover c
 ### NFR-03 (Performance):
 Command processing should complete within 5 seconds after a command is received by the rover.
 ### NFR-04 (Scalability):
-The system should support communication with multiple rovers simultaneously.
+The system shall support at least 20 simultaneously
+connected rovers.
+
