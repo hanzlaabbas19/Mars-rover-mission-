@@ -10,7 +10,10 @@ The system shall report the rover's current position, battery level, temperature
 ### FR-03: 
 The system shall validate and reject invalid or unauthorized commands.
 ### FR-04: 
-The rover shall automatically enter Safe Mode when a critical battery or thermal condition is detected.
+The rover shall enter Safe Mode within 3 seconds when
+battery temperature exceeds the critical threshold or
+battery capacity falls below the defined emergency level.
+
 ### FR-05: 
 Mission Control shall receive command execution status updates.
 ### FR-06: 
