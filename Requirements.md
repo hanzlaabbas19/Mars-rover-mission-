@@ -22,7 +22,9 @@ All commands and critical rover events shall be recorded with timestamps and ope
 ### NFR-01 (Reliability/Fault Tolerance):
 The system shall continue operating despite temporary communication interruptions.
 ### NFR-02 (Security):
-Only authenticated Mission Control operators shall be permitted to issue rover commands.
+The system shall require authenticated and role-authorized
+operators before accepting rover commands.
+
 ### NFR-03 (Performance):
 Command processing should complete within 5 seconds after a command is received by the rover.
 ### NFR-04 (Scalability):
